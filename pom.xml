@@ -13,6 +13,7 @@
         <module>orm</module>
         <module>mvc</module>
         <module>dbcp</module>
+        <module>json</module>
     </modules>
 
     <properties>
@@ -40,6 +41,7 @@
         <!--============================== OTHER ==============================-->
         <junit.version>5.2.0</junit.version>
         <apiguardian-api.version>1.0.0</apiguardian-api.version>
+        <paradise-common.version>1.1.3</paradise-common.version>
     </properties>
 
 
@@ -76,7 +78,11 @@
                 <artifactId>log-integration</artifactId>
                 <version>${log-integration.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.github.houbb</groupId>
+                <artifactId>paradise-common</artifactId>
+                <version>${paradise-common.version}</version>
+            </dependency>
 
             <!--============================== OTHER ==============================-->
             <dependency>

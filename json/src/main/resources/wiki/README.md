@@ -1,0 +1,1 @@
+和 FastJson 类似

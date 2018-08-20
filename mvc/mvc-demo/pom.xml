@@ -29,7 +29,7 @@
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>${plugin.tomcat.version}</version>
+                <version>2.2</version>
                 <configuration>
                     <port>8081</port>
                     <path>/</path>

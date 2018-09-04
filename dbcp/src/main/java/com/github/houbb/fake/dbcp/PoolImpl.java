@@ -75,13 +75,7 @@ public class PoolImpl implements IPool {
 
             //2. 初始化连接池
             initConnectionPool();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
+        } catch (InstantiationException | IllegalAccessException | SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }
     }

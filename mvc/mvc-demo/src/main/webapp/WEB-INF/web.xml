@@ -7,10 +7,10 @@
 
     <servlet>
         <servlet-name>dispatchServlet</servlet-name>
-        <servlet-class>com.github.houbb.mvc.core.servlet.DispatcherServlet</servlet-class>
+        <servlet-class>com.github.houbb.fake.mvc.core.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>scanPackage</param-name>
-            <param-value>com.github.houbb.mvc.demo</param-value>
+            <param-value>com.github.houbb</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
